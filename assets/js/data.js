@@ -19,7 +19,7 @@ window.SITE = {
   gst: "27ABHFB1426D1ZW",
   fssai: "21526079003987",
   freeShipping: "[PLACEHOLDER – e.g. Free delivery in Pune on orders above ₹999]",
-  social: { instagram: "#", facebook: "#", google: "#" }, // [PLACEHOLDER] add real URLs
+  social: { instagram: "https://www.instagram.com/bagayatdar_agro_foods", facebook: "https://www.facebook.com/share/18FYfjtgso/", google: "https://g.page/r/CUGB5PxNuc_lEBM/review" },
   domain: "https://www.example.com" // [PLACEHOLDER] used for sitemap / Open Graph
 };
 
