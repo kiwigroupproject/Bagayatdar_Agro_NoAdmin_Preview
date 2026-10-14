@@ -14,7 +14,7 @@
   }
   // Builds the wa.me order link — this is the "order request" message
   function waLink(p, variant, qty = 1) {
-    const msg = `Hello ${S.name}, I would like to order:\n\n• ${p.name} — ${variant.label} × ${qty}\n\nCould you please share the price (per pack and total) for this order?\n\nName:\nDelivery address & pincode:\n\nPlease also confirm availability and delivery details. Thank you!`;
+    const msg = `Hello ${S.name}, I would like to order:\n• ${p.name}`;
     return `https://wa.me/${S.whatsapp}?text=${encodeURIComponent(msg)}`;
   }
   const waGeneral = (t = `Hello ${S.name}, I have an enquiry.`) => `https://wa.me/${S.whatsapp}?text=${encodeURIComponent(t)}`;

@@ -466,3 +466,7 @@ body{overflow-x:hidden}
 @media (max-width:460px){.cust p{font-size:.84rem}}
 @media (prefers-reduced-motion:reduce){.orbit-logo{animation:none}}
 @media (max-width:820px){.cust-art{min-height:340px}.cust-core{width:136px;height:136px}.cust-core b{font-size:2.1rem}.cust-core span{font-size:.54rem;letter-spacing:.04em;padding:0 10px}.orbit-logo{--R:118px;--s:62px}}
+.stats.three ul{grid-template-columns:repeat(3,1fr)}@media (max-width:900px){.stats.three ul{grid-template-columns:1fr 1fr}.stats.three li:last-child{grid-column:1/-1}}
+
+/* lining numerals */
+h1,h2,h3,h4,.pcat,.pcard h3,.psub{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
