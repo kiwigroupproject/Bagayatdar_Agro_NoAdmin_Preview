@@ -22,7 +22,7 @@
 
   /* ---------- header / announcement / footer ---------- */
   const page = (location.pathname.split("/").pop() || "index.html");
-  const nav = [["index.html", "Home"], ["shop.html", "Shop"], ["about.html", "About"], ["contact.html", "Contact"]];
+  const nav = [["index.html", "Home"], ["shop.html", "Shop"], ["customers.html", "Customers"], ["about.html", "About"], ["contact.html", "Contact"]];
 
   function buildChrome() {
     const h = $("#site-header");
@@ -41,7 +41,7 @@
         <div><img class="ftr-logo" src="assets/img/logo.webp" alt="${S.name}" width="170" height="72" loading="lazy">
           <p>${S.tagline}. Trusted second-generation agro-food business — PAN India delivery.</p>
           <p class="soc"><a href="${S.social.instagram}" aria-label="Instagram">Instagram</a> · <a href="${S.social.facebook}" aria-label="Facebook">Facebook</a> · <a href="${S.social.google}" aria-label="Google">Google</a></p></div>
-        <div><h4>Quick links</h4><ul><li><a href="shop.html">Shop all</a></li><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+        <div><h4>Quick links</h4><ul><li><a href="shop.html">Shop all</a></li><li><a href="customers.html">Our customers</a></li><li><a href="about.html">About us</a></li><li><a href="contact.html">Contact</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
         <div><h4>Categories</h4><ul>${C.map(c => `<li><a href="shop.html?cat=${c.id}">${c.name}</a></li>`).join("")}</ul></div>
         <div><h4>Contact</h4><ul class="ct"><li>${S.address}<br><a href="${S.maps}" target="_blank" rel="noopener">View on Google Maps ↗</a></li><li><a href="tel:+${S.whatsapp}">${S.phoneDisplay.join(" / ")}</a></li><li><a href="mailto:${S.email}">${S.email}</a></li></ul>
           <h4 class="mt">Policies</h4><ul><li><a href="shipping.html">Shipping & Returns</a></li><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms</a></li></ul></div>
