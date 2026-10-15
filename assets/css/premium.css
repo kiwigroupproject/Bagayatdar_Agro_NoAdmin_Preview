@@ -551,3 +551,4 @@ body.theme-dark main li b,body.theme-dark main .pack b{color:var(--gold-l)}body.
 body.theme-dark main .ben>div{background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid rgba(230,198,117,.28);color:var(--ink)}
 body.theme-dark main .ben h3{color:var(--gold-l)}
 body.theme-dark main .disc{color:var(--muted)}
+body.theme-dark main .serve b{color:#fff}
